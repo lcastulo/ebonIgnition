@@ -1,0 +1,77 @@
+p {
+  text-align: left;
+}
+
+h3 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.blog-post {
+  background-image: url(./images/ebon-hall.jpg);
+  background-size: 50%;
+  padding-top: 200px;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  margin-bottom: 8rem;
+  box-shadow:  0 0 10px #888;
+}
+
+.blog-info {
+  background-color: #efefef;
+  padding: 2rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.blog-info a{
+  font-size: 1.75rem;
+  display: block;
+  text-align: right;
+  margin-top: 2rem;
+  font-weight: bold;
+  transition: .3s;
+}
+.blog-info a:hover{
+  color: #FEA909;
+  transition: .5s;
+}
+.section {
+  padding: 10rem 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 8rem;
+}
+
+.subsection-title {
+  font-size: 2.9rem;
+  margin-bottom: 1.8rem;
+}
+
+.subsection-one {
+  max-width: 60ch;
+  text-align: left;
+}
+
+
+.section-one {
+  margin-bottom: 16rem;
+  overflow: hidden;
+}
+
+@media (min-width: 1000px) {
+  .section {
+    text-align: center;
+  }
+
+  .blog-post{
+    width: 800px;
+    display: inline-block;
+    justify-content:;
+  }
+}
