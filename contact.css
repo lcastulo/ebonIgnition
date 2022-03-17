@@ -1,5 +1,5 @@
 .section {
-	padding: 10rem 0;
+	padding: 0rem 0;
 	text-align: center;
 }
 
@@ -99,7 +99,8 @@ input[type=submit]{
   cursor: pointer;
   border: none;
   font-size: 1.75rem;
-  display: inline-block;
+  display: flex;
+  justify-content: right;
   transition: 1s;
 }
 input[type=submit]:hover{
@@ -121,7 +122,7 @@ input[type=submit]:hover{
 	.section-one {
 		position: relative;
 		margin-bottom: 0rem;
-		padding: 16rem 0;
+		padding-bottom: 16rem;
 	}
 
 	.section-one-container {

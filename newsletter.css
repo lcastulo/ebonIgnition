@@ -35,7 +35,7 @@ h3 {
   transition: .3s;
 }
 .blog-info a:hover{
-  color: #FEA909;
+  color: #2E7D32;
   transition: .5s;
 }
 .section {
@@ -46,6 +46,10 @@ h3 {
 .section-title {
   font-size: 2.5rem;
   margin-bottom: 8rem;
+}
+
+.section-one-title {
+	font-size: clamp(2.5rem, 3vw + 1rem, 4rem);
 }
 
 .subsection-title {
