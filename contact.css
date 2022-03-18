@@ -1,22 +1,3 @@
-.section {
-	padding: 0rem 0;
-	text-align: center;
-}
-
-.section-title {
-	font-size: 2.5rem;
-}
-
-.subsection-title {
-	font-size: 2.9rem;
-	margin-bottom: 1.8rem;
-}
-
-@media (min-width: 1000px) {
-	.section {
-		text-align: left;
-	}
-}
 
 /* === Section one === */
 .section-one {
